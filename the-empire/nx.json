@@ -27,12 +27,25 @@
     ]
   },
   "projects": {
+    "assets": {
+      "tags": []
+    },
     "death-star": {
       "tags": []
     },
     "death-star-e2e": {
       "tags": [],
       "implicitDependencies": ["death-star"]
+    },
+    "star-destroyer": {
+      "tags": []
+    },
+    "star-destroyer-e2e": {
+      "tags": [],
+      "implicitDependencies": ["star-destroyer"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
